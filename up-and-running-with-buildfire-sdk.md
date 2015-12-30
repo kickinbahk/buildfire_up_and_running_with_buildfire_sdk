@@ -26,7 +26,7 @@ In the SDK, navigate to the 'pluginTester' directory, then to the <code>index.ht
 
 This should bring up the developer dashboard confirming you are ready to start developing your app!
 
-![Image of Developer Dashboard on localhost](../dev-dashboard.png)
+![Image of Developer Dashboard on localhost](./dev-dashboard.png)
 
 
 
