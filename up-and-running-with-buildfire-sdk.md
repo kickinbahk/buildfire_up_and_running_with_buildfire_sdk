@@ -1,32 +1,34 @@
-## Up and Running with BuildFire SDK
+### Up and Running with the BuildFire SDK
 
-The BuildFire SDK allows for developers to make plug-ins that can be used and sold on the BuildFire platform and in BuildFire apps. This allows for developers to be able to adapt BuildFire to the specific use case of a customer or fill a need which BuildFire has not already filled.
+The BuildFire SDK allows for developers to make plugins that can be used in BuildFire apps and be sold on the BuildFire platform (in the future). This allows for developers to be able to adapt BuildFire apps to specific use cases of a customer or fill a need which BuildFire’s plugins do not already fill.
 
-To get started with you should start by signing up for a developer account at [developer.buildfire.com](http://developer.buildfire.com).
+#### Sign Up for Developer Program
 
-[Image of developer portal]
+To get started, we can start by signing up for a developer account at [dev.buildfire.com](http://dev.buildfire.com).
 
-Once signed up, you will need to get the SDK locally on your machine. This will allow you to begin developing in your IDE or editor.
+![Image of developer portal](./dev-portal.png)
 
-To get the SDK, you then can either download the zip file from the [developer.buildfire.com](http://developer.buildfire.com) page or you can fork the [repo](https://github.com/BuildFire/sdk).
+#### Download the SDK
 
-If you fork the repo, you will need to <code>git clone</code> the repository into the folder you want on your machine.
+Once signed up, we will need to get the SDK locally on our machine. This will allow us to begin developing in our IDE or editor.
 
-Go ahead and open up the sdk folder should now be local on your machine. You can use any IDE or text editor you prefer. Though, having a webserver built in to your environment is nice so you can test the plug-in locally and see the changes you are making to it. A couple recommendations of some IDEs to maybe use would be Webstorm or Brackets, as both have this functionality.
+To get the SDK, we then can either download the zip file from the [dev.buildfire.com](http://dev.buildfire.com) page or get it directly from github [here](https://github.com/BuildFire/sdk/archive/master.zip)
 
-Once you have the SDK open, you will want to grab the App Id from your developer portal. This App Id is what we issue you to be able to test your plug-in. 
+Additionally, we could also clone the [repo](https://github.com/BuildFire/sdk) on github. To do this, we will simply need to <code>git clone https://github.com/BuildFire/sdk.git</code> the repository into the folder we want on our machine.
 
-[Image where to find App Id]
+#### Open SDK in IDE or Text Editor
 
-After grabbing the App Id, you should change the App Id in the <code>window.appContext.currentApp</code>. This will allow you to start testing your app.
+Once the SDK is on our machine, we can go ahead and open the directory in our editor. We can use any IDE or text editor we would prefer, though, having a webserver built in to our environment is nice so we can test the plugin locally and see the changes being made to the plugin. A couple recommendations of some IDEs to maybe use would be Webstorm or Brackets, as both have this functionality.
 
-Before we end, let's make sure we are all set by actually running our plug-in locally.
+#### Test Our Environment on Local Server
 
-In the SDK, navigate to the 'pluginTester' directory, then to the <code>index.html</code> file inside it and choose to open it in the browser or run it.
+Before we end, let’s make sure we are all set by actually running our plugin locally.
 
-This should bring up the developer dashboard confirming you are ready to start developing your app!
+In the SDK, navigate to the 'pluginTester' directory, then to the <code>index.html</code> file inside it and choose to open it in the browser or run it or we can navigate to the localhost address in our browser.
 
-![Image of Developer Dashboard on localhost](./dev-dashboard.png)
+This should bring up the developer dashboard confirming we are ready to start developing our app!
+
+![Image of Developer Dashboard on localhost](./dev-local-dashboard.png)
 
 
 
